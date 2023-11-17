@@ -1,0 +1,58 @@
+This is a rga plugin for Edge2.
+
+It is based on the following plugins:
+
+rockchip-rga_2.2.0-6_arm64
+├─usr
+|  ├─share
+|  ├─lib
+|  |  ├─aarch64-linux-gnu
+|  |  |         ├─librga.so.2    -> librga.so.2.1.0
+|  |  |         └librga.so.2.1.0        # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga_*.deb
+
+rockchip-rga-dev_2.2.0-6_arm64
+├─usr
+|  ├─share
+|  ├─lib
+|  |  ├─aarch64-linux-gnu
+|  |  |         ├─librga.so             # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga-dev_*.deb
+|  |  |         ├─pkgconfig
+|  |  |         |     ├─librga.pc       # sync from rockchipSDK/debian/packages/arm64/rga/librga-dev_*.deb
+|  |  |         |     └rockchip_rga.pc  # new SDK has removed this file
+|  ├─include                            # all sync from rockchipSDK/external/linux-rga/include and rockchipSDK/external/linux-rga/im2d_api
+|  |    ├─rockchip
+|  |    |    ├─GrallocOps.h
+|  |    |    ├─RgaApi.h
+|  |    |    ├─RgaMutex.h
+|  |    |    ├─RgaSingleton.h
+|  |    |    ├─RgaUtils.h
+|  |    |    ├─RockchipRga.h
+|  |    |    ├─drmrga.h
+|  |    |    ├─im2d.h
+|  |    |    ├─im2d.hpp
+|  |    |    ├─im2d_common.h            # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |    ├─im2d_hardware.h          # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |    ├─im2d_type.h
+|  |    |    ├─im2d_version.h
+|  |    |    └rga.h
+|  |    ├─rga
+|  |    |  ├─GrallocOps.h
+|  |    |  ├─RgaApi.h
+|  |    |  ├─RgaMutex.h
+|  |    |  ├─RgaSingleton.h
+|  |    |  ├─RgaUtils.h
+|  |    |  ├─RockchipRga.h
+|  |    |  ├─drmrga.h
+|  |    |  ├─im2d.h
+|  |    |  ├─im2d.hpp
+|  |    |  ├─im2d_type.h
+|  |    |  ├─im2d_version.h
+|  |    |  └rga.h
+
+rockchip-rga-sample_2.2.0-6_arm64
+├─usr
+|  ├─share
+|  |   ├─rockchip-rga
+|  |   |      ├─sample                  # all sync from rockchipSDK/external/linux-rga/samples/im2d_api_demo
+|  |   ├─doc
+|  |   |  ├─rockchip-rga-sample
