@@ -8,14 +8,14 @@ rockchip-rga_2.2.0-6_arm64
 |  ├─lib
 |  |  ├─aarch64-linux-gnu
 |  |  |         ├─librga.so.2    -> librga.so.2.1.0
-|  |  |         └librga.so.2.1.0        # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga_*.deb
+|  |  |         └librga.so.2.1.0        # sync from rockchipSDK/debian/packages/arm64/rga/librga2_*.deb
 
 rockchip-rga-dev_2.2.0-6_arm64
 ├─usr
 |  ├─share
 |  ├─lib
 |  |  ├─aarch64-linux-gnu
-|  |  |         ├─librga.so             # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga-dev_*.deb
+|  |  |         ├─librga.so             # sync from rockchipSDK/debian/packages/arm64/rga/librga-dev_*.deb
 |  |  |         ├─pkgconfig
 |  |  |         |     ├─librga.pc       # sync from rockchipSDK/debian/packages/arm64/rga/librga-dev_*.deb
 |  |  |         |     └rockchip_rga.pc  # new SDK has removed this file
@@ -28,12 +28,12 @@ rockchip-rga-dev_2.2.0-6_arm64
 |  |    |    ├─RgaUtils.h
 |  |    |    ├─RockchipRga.h
 |  |    |    ├─drmrga.h
-|  |    |    ├─im2d.h
-|  |    |    ├─im2d.hpp
+|  |    |    ├─im2d.h                   # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |    ├─im2d.hpp                 # sync from rockchipSDK/external/linux-rga/im2d_api
 |  |    |    ├─im2d_common.h            # sync from rockchipSDK/external/linux-rga/im2d_api
-|  |    |    ├─im2d_hardware.h          # sync from rockchipSDK/external/linux-rga/im2d_api
-|  |    |    ├─im2d_type.h
-|  |    |    ├─im2d_version.h
+|  |    |    ├─im2d_hardware.h          # sync from rockchipSDK/external/linux-rga/im2d_api/src
+|  |    |    ├─im2d_type.h              # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |    ├─im2d_version.h           # sync from rockchipSDK/external/linux-rga/im2d_api
 |  |    |    └rga.h
 |  |    ├─rga
 |  |    |  ├─GrallocOps.h
@@ -43,10 +43,10 @@ rockchip-rga-dev_2.2.0-6_arm64
 |  |    |  ├─RgaUtils.h
 |  |    |  ├─RockchipRga.h
 |  |    |  ├─drmrga.h
-|  |    |  ├─im2d.h
-|  |    |  ├─im2d.hpp
-|  |    |  ├─im2d_type.h
-|  |    |  ├─im2d_version.h
+|  |    |  ├─im2d.h                     # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |  ├─im2d.hpp                   # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |  ├─im2d_type.h                # sync from rockchipSDK/external/linux-rga/im2d_api
+|  |    |  ├─im2d_version.h             # sync from rockchipSDK/external/linux-rga/im2d_api
 |  |    |  └rga.h
 
 rockchip-rga-sample_2.2.0-6_arm64
