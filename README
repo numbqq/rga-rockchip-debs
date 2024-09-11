@@ -8,16 +8,16 @@ rockchip-rga_2.2.0-6_arm64
 |  ├─lib
 |  |  ├─aarch64-linux-gnu
 |  |  |         ├─librga.so.2    -> librga.so.2.1.0
-|  |  |         └librga.so.2.1.0        # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga_*.deb
+|  |  |         └librga.so.2.1.0        # sync from rockchipSDK/debian/packages/arm64/rga2/rockchip-rga_*.deb
 
 rockchip-rga-dev_2.2.0-6_arm64
 ├─usr
 |  ├─share
 |  ├─lib
 |  |  ├─aarch64-linux-gnu
-|  |  |         ├─librga.so             # sync from rockchipSDK/debian/packages/arm64/rga/rockchip-rga-dev_*.deb
+|  |  |         ├─librga.so             # sync from rockchipSDK/debian/packages/arm64/rga2/rockchip-rga-dev_*.deb
 |  |  |         ├─pkgconfig
-|  |  |         |     ├─librga.pc       # sync from rockchipSDK/debian/packages/arm64/rga/librga-dev_*.deb
+|  |  |         |     ├─librga.pc       # sync from rockchipSDK/debian/packages/arm64/rga2/librga-dev_*.deb
 |  |  |         |     └rockchip_rga.pc  # new SDK has removed this file
 |  ├─include                            # all sync from rockchipSDK/external/linux-rga/include and rockchipSDK/external/linux-rga/im2d_api
 |  |    ├─rockchip
